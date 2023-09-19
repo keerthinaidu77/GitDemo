@@ -8,7 +8,7 @@ public class First_And_Last_Index_Of_An_Elem {
 		int low=0;
 		int high=arr.length-1;
 		int mid=0;
-		
+		// for start index
 		while(low<=high) {
 			mid=(low+high)/2;
 			if(arr[mid]==key) {
